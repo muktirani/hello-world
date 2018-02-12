@@ -1,0 +1,19 @@
+
+
+
+
+.image{
+
+	background-image: url(images/beach.jpg);
+	height: 850px;
+	background-size:cover;
+	margin: 0;
+	padding: 10px 3px 4px 5px; 
+
+}
+.addimg{
+
+padding:500px 500px 500px 500px;
+
+
+}
