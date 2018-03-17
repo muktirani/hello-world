@@ -11,6 +11,8 @@ header{
 	color: white;
 	padding: 8px 0px 6px 40px;
 	height: 40px;
+	display: block;
+
 }
 header h1{
 	display: inline;
@@ -40,37 +42,54 @@ nav ul{
 }
 nav ul li a{
 
-	color: white;
+	color: red;
 	text-decoration: none;
+
+
 }
 #nav{
 
 	font-family: 'Montserrat', sans-serif;
+	position: fixed;
+
+}
+.homered
+{
+
+	background-color: red;
+	color: white;
+	padding-bottom: 9px;
+	padding-top: 9px;
+	
+	text-transform: uppercase;
+
 }
 .homered:hover{
 
-	background-color: red;
+	background-color: blue;
 	padding: 30px 10px 11px 10px; 
+	border: 1px solid green;
 }
-.divider{
-	background-color: red;
-	height: 5px; 
+
+.homeblack
+{
+
+	
+	color: white;
+	
+	text-transform: uppercase;
 }
 .homeblack:hover{
-background-color: red;
+background-color: blue;
 	padding: 30px 10px 11px 10px; 
+
 }
-.fullimage{
+body{
 
-	background-image: url(images/love.jpg);
-	width:200px;
+	background-image: url(images/ludo.jpg);
 	
-	height: 200px;
-	
-
 	background-size:cover;
-	margin: 100px;
-	padding: 10px; 
+	 
 }
 .homesub{
 
@@ -78,15 +97,18 @@ background-color: red;
 	font-size: 18px;
 	color: yellow; 	
 	padding:0;
+
 	
-	margin: 5% 0% 0% 59%;
+	
+	text-align: left;
+	margin: 100px 550px 10px 150px;
 }
 .homedes{
 font-family: 'Raleway', sans-serif;
 	color: orange; 	
 	padding: 0;
-	
-	margin: 0% 0% 0% 58%;
+	text-align: left;
+	margin: 0px 50px 10px 150px;
 	font-size: 55px;
 	background-color: rgba(0,0,0,0.5);
 	display: inline-block;
@@ -96,8 +118,8 @@ font-family: 'Raleway', sans-serif;
 	font-family: 'Oswald', sans-serif;
 	color: BLACK; 	
 	padding: 0;
-	
-	margin: 0% 0% 0% 58%;
+	text-align: left;
+	margin: 0px 550px 10px 150px;
 	font-size: 55px;
 	
 	display: inline-block;
@@ -110,7 +132,9 @@ font-family: 'Oswald', sans-serif;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
 	
-	margin: 0% 0% 0% 58%;
+	text-align: left;
+	margin: 0px 550px 10px 150px;
+
 	font-size: 20px;
 	background-color: yellow;
 	border: none;
@@ -122,8 +146,25 @@ font-family: 'Oswald', sans-serif;
 	display: inline-block;
 
 }
-.align
+.alignright
 {
 
 	 text-align: right;
+
+}
+
+
+.row
+{
+
+margin: 10px 550px 40px 10px;
+
+	float:left;
+}
+
+.divider
+{
+
+	background-color: red;
+	height: 5px;
 }
